@@ -137,8 +137,8 @@ chrome.tabs.onRemoved.addListener(function (tabId) {
 
 
 function showPageAction(tabId) {
-  chrome.pageAction.show(tabId);
-  chrome.pageAction.setTitle({
+  chrome.action.show(tabId);
+  chrome.action.setTitle({
     tabId: tabId,
     title: 'Batarang Active'
   });

@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/angular/angularjs-batarang/issues"
   },
-  "homepage": "https://github.com/angular/angularjs-batarang"
+  "homepage": "https://github.com/angular/angularjs-batarang",
+  "volta": {
+    "node": "8.11.1"
+  }
 }
